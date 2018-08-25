@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Ya soy programador Web</h1>
+    <h2 id="subtitulo">Frontend</h2>
+
+    <div id="parrafo"></div>
+
+    <yaz>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores laboriosam praesentium beatae repudiandae tempora cumque deleniti, reprehenderit quidem quam repellat, optio accusamus laborum excepturi voluptatum facilis distinctio fugiat deserunt ipsam.</yaz>
+
+    <button id="boton">Cambiar color de fondo</button>
+    <script>
+        // let parrafo = document.getElementById('parrafo');
+        // // parrafo.innerText = "escribiendo desde javascript"
+        // parrafo.innerHTML = 
+        // `
+        // <h3>Un subtitulo desde javascript</h3>
+
+        // <section>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam deleniti a illo? Nobis blanditiis sequi rerum asperiores dignissimos soluta distinctio voluptatum delectus corporis? Totam explicabo, nostrum error ullam libero amet?</section>
+        // `
+        
+        let incremento = 0;
+        let boton = document.getElementById('boton');
+
+        boton.addEventListener('click',function(){
+            
+            document.body.style.background = 
+            `#${incremento}${incremento+=2}${incremento}`;
+        })
+
+    </script>
+</body>
+</html>
