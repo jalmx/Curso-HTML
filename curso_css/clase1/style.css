@@ -1,0 +1,27 @@
+*{
+    text-decoration: underline;
+}
+
+h2, .boton{
+    background: purple;
+    color: white;
+}
+
+.header{
+    background: #333;
+}
+p{
+    border: 4px solid maroon;
+}
+
+span{
+    border: 3px solid green;
+}
+
+.parrafo{
+    font-family:  monospace;
+}
+
+#parrafo{
+    color: chartreuse;
+}
