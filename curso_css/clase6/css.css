@@ -1,0 +1,39 @@
+
+a[href]{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .4em;
+    margin-top: .4em;
+    margin-bottom: .4em;
+    border-radius: 10px;
+}
+
+[href$="pdf"]{
+    background: red;
+}
+
+[href$="docx"]{
+    background: blue;
+}
+
+[class^="pa"]{ /*que comienza con */
+    background: gray;
+    color: white;
+}
+
+[class$="pal"]{
+    font-family: sans-serif;
+}
+
+[href*="archivo"]{
+    text-align: right;
+}
+
+[class|="titulo principal"]{
+    background: yellow;
+}
+
+[title~="item"]{
+    list-style: none;
+}

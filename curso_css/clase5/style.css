@@ -1,0 +1,51 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section a{
+    background: red;
+}
+
+body{
+    background: green;
+}
+
+ul{
+    background: gray;
+    border: 2px solid yellow;
+}
+
+section{
+    background: steelblue;
+    padding: 1em;
+}
+
+div > ul >li >ul{
+    background: violet;
+}
+
+article > div > span{
+    background: white;
+    color: gray;
+    text-decoration: underline;
+    line-height: 2em;
+}
+h2 + p {
+    background: white;
+}
+
+.article > p ~ div{
+    background: gold;
+}
+.article{
+    color: orange;
+}
+
+article.mensaje{
+    color: white;
+    background: #000;
+}

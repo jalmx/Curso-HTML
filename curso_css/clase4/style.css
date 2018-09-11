@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: azure;
+}
+
+body{
+    background: steelblue;
+}
+
+h1{
+    color: blue;
+}
+
+h1{
+    color: brown;
+}
+section{
+    background: aquamarine !important;
+    color: black
+}
+
+#parrafo-1{
+    background: rgb(25, 26, 23);
+}
+
+#titulo-2{
+    color: yellowgreen;
+}
+
+.section{
+    text-decoration: underline;
+    padding: 2em;
+}
+
+.mi-estilo{
+    background: red;
+    font-size: 3em;
+}
+.nuevo-estilo{
+    background: peru !important;
+    border: 1em solid red;
+}

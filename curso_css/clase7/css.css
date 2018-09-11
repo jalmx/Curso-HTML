@@ -1,0 +1,49 @@
+body :not(p):not(div) {
+    background: gray;
+    color: white;
+}
+
+p:empty{
+    background: red;
+    padding: 1em;
+}
+[type="checkbox"]:checked{
+    font-size: 5em;
+    background: red;
+    border: 3px solid yellow;
+    padding: 5em;
+    margin-right: 3em;
+
+}
+input[type="checkbox"]:checked + label{
+    color: yellow;
+    font-size: 2em;
+    background: slateblue;
+    padding: 1em;
+}
+
+input:focus{
+    background: violet;
+    font-size: 2em;
+    color: black;
+}
+
+input{
+    font-size: 2em;
+}
+
+input:optional{
+    background: pink;
+}
+
+input:enabled{
+    background: green;
+}
+
+input:disabled{
+    background: red;
+}
+input:required{
+    background: yellow;
+}
+
