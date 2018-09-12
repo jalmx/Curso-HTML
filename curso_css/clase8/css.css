@@ -1,0 +1,56 @@
+h1:first-child{
+    background: red;
+}
+
+h1:nth-child(2){
+    background: steelblue;
+    color: white;
+}
+
+p:last-child{
+    background: yellow;
+}
+
+p:nth-child(4){
+    background: green;
+}
+
+.container{
+    width: 80%;
+    background: #eee;
+    margin: auto;
+}
+
+img{
+    display: inline-block;
+    width: 30%;
+}
+
+img:nth-child(4){
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 66%;
+}
+img:nth-child(even){
+    padding: 0.5em;
+    background: red;
+}
+
+p:first-of-type{
+    background: yellow;
+}
+p:last-of-type{
+    background: steelblue;
+    color: white;
+}
+
+body > img:first-of-type{
+    width: 100%;
+}
+
+h1:nth-of-type(n){
+    background: tomato;
+    color: white;
+}
