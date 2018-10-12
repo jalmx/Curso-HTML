@@ -1,0 +1,13 @@
+div{
+    background: orange;
+}
+
+p{
+    background: red;
+    transition: all .5s;
+}
+
+div:hover > p{
+    transform: rotate(90deg);
+    background: white;
+}

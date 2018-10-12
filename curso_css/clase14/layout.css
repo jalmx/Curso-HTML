@@ -1,0 +1,47 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer,
+header {
+    height: 100px;
+    background-color: gray;
+    color: white;
+}
+
+div {
+    display: table;
+    padding: 1em 0;
+}
+
+ul,
+main {
+    padding: 2em 0;
+}
+
+ul {
+    float: left;
+    width: 20%;
+}
+
+main {
+    width: 80%;
+    float: right;
+    padding-left: 2em;
+}
+
+li{
+    background: rgb(56, 136, 189);
+    line-height: 1.8;
+    margin: .5em 0;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}

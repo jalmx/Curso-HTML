@@ -1,0 +1,44 @@
+div{
+    width: 200px;
+    height: 200px;
+    background: peru;
+    color: white;
+}
+
+a{
+    background: #333;
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+    display: inline-block;
+    padding: 0 1em;
+    border-radius: 3px;
+    position: sticky;
+    top: 10px;
+    z-index: -1;
+}
+
+a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+}
+
+p{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: rgba(39, 39, 128,1);
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    line-height: 1.8;
+    position: fixed;
+    left: 80%;
+    bottom: 5%;
+}
