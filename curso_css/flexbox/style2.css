@@ -1,0 +1,13 @@
+.container{
+    margin: 0;
+    background: green;
+    height: 200px;
+    display: flex;
+    align-items: baseline;
+}
+
+.item{
+    margin: 0;
+    background: brown;
+
+}

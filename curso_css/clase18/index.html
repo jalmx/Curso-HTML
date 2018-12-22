@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        h1,
+        h3 {
+            width: 100%;
+            text-align: center;
+            padding: 1rem 0;
+            color: white;
+        }
+
+        header {
+            background: #1abc9c;
+            height: 320px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+
+        nav {
+            background: #333;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            padding: 1rem 2rem;
+        }
+
+        a:hover {
+            background: #eee;
+            color: #333;
+        }
+
+        @media screen and (max-width: 720px) and (max-width:320px){
+            nav{
+                display: block;
+            }
+            ul {
+                flex-direction: column;
+            }
+
+            a{
+                display: block;
+                text-align: center;
+            }
+        }
+        @media screen and (max-width:320px){
+           
+            nav{
+                display: none;
+            }
+            header{
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Website</h1>
+        <h3>With a flexible layout</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
